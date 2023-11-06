@@ -1,4 +1,9 @@
 package scr;
-public class BoxCustomException {
-    
+
+public class BoxCustomException extends RuntimeException{
+    public BoxCustomException(String message) {
+        super(message);
+    }
 }
+    
+
